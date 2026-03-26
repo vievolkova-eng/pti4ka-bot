@@ -73,7 +73,7 @@ bot.on('photo', async (ctx) => {
 fileId);
 
     state.delete(userId);
-    await ctx.reply('Спасибо! Я обрабатываю Ваше фото, а резултат покажет менеджер в личных сообщениях ❤️', keyboard());
+    await ctx.reply('Спасибо! Я обрабатываю Ваше фото, а результат покажет менеджер в личных сообщениях ❤️', keyboard());
     return;
   }
 });
