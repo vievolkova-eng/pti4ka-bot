@@ -71,8 +71,6 @@ console.log('Бот запущен');
 
 const PORT = process.env.PORT || 3000;
 
-bot.launch().then(() => {
-  console.log('Бот запущен');
 });
 
 // чтобы Render не выключал сервис
