@@ -4,8 +4,8 @@ const http = require('http');
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const ADMIN_ID = Number(process.env.ADMIN_ID);
-const MANAGER_USERNAME = process.env.MANAGER_USERNAME  '@pti4ka_me';
-const PORT = process.env.PORT  3000;
+const MANAGER_USERNAME = process.env.MANAGER_USERNAME || '@pti4ka_me';
+const PORT = process.env.PORT || 3000;
 
 if (!BOT_TOKEN) {
   throw new Error('BOT_TOKEN не найден');
